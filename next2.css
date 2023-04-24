@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo2{
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+
+.logo2 img{
+    
+    width: 150px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.img-div{
+    flex-basis: 90%;
+}
+.text-div #href{
+    flex-basis: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(41, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text-div #href:hover{
+    text-decoration: underline;
+}
+.text-div{
+    display: grid;
+    align-items: center;
+}
+.main
+{
+    width: 100%;
+    height: 80vh;
+
+}
+.box5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside5
+{
+    height: 60vh;
+    width: 40%;
+    margin-top: 6%;
+    
+    margin-left: 20%;
+}
+.im1
+{
+    padding-left: 10%;
+
+}
+.step1
+{
+    padding-left: 8%;
+}
+.inside5 h1{
+    font-family: system-ui;
+    color: #322f2f;
+}
+.step{
+    padding-top: 4%;
+    font-size: 20px;
+    color: #2c2b2b;
+}
+.para1
+{
+    padding-top: 4%;
+    font-size: 20px;
+    color: #2c2b2b;
+}
+.para2
+{
+    padding-top: 4%;
+    font-size: 20px;
+    color: #2c2b2b;
+    padding-bottom: 6%;
+}
+.inside5 button
+{
+    width: 50%;
+    height: 8vh;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    font-size: 30px;
+    font-family: monospace
+}
+.box4
+{
+    width: 100%;
+    height: 35vh;
+    color: gray;
+    
+  
+    background-color: #f6f4f4;
+    font-family: system-ui;
+}
+.inbox4 p{
+    padding-left: 7%;
+    padding-top: 3.5%;
+}
+.tab
+{
+    padding-left: 7%;
+   
+    margin-top: 2%;
+    height: 12vh;
+   
+   
+}
+.tab a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: unset;
+}
+.tab a:hover{
+    text-decoration: underline;
+}
+
+.eng
+{
+    padding-left: 7%;
+}
+.eng button
+{
+    width: 10%;
+    height: 7vh;
+    color: gray;
+    background-color: white;
+    font-size: medium;
+    border: 1px solid grey;
+
+}
+.eng img
+{
+    width: 10px;
+    color:black;
+    padding-right: 7px;
+}
+
+
+
+
+
+
+
+
+

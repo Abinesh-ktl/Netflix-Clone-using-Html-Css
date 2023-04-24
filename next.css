@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo2{
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+
+.logo2 img{
+    
+    width: 150px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.img-div{
+    flex-basis: 90%;
+}
+.text-div #href{
+    flex-basis: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(41, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text-div #href:hover{
+    text-decoration: underline;
+}
+.text-div{
+    display: grid;
+    align-items: center;
+}
+.main
+{
+    width: 100%;
+    height: 90vh;
+
+}
+.box5
+{
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.inside5
+{
+    padding-top: 3%;
+   
+}
+.inside5 a{
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.step1{
+    color: #6f6c6c;
+    font-family: monospace;
+    font-size: 14px;
+}
+.inside5 h1{
+    font-family: system-ui;
+    font-size: 35px;
+    color: #3a3939;
+}
+.cret1
+{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: large;
+}
+.cret2{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: large;
+}
+.inside5 input
+{
+    margin-top: 3%;
+    height: 7vh;
+    padding-left: 1%;
+    width: 100%;
+}
+.inside5 ::placeholder
+{
+    color: grey;
+    font-size: 15px;
+}
+.inside5 button
+{
+    margin-top: 3%;
+    height: 8vh;
+    padding-left: 1%;
+   
+    width: 102%;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    color: white;
+    font-size: xx-large;
+}
+.box4
+{
+    width: 100%;
+    height: 35vh;
+    color: gray;
+    
+  
+    background-color: #f6f4f4;
+    font-family: system-ui;
+}
+.inbox4 p{
+    padding-left: 7%;
+    padding-top: 3.5%;
+}
+.tab
+{
+    padding-left: 7%;
+   
+    margin-top: 2%;
+    height: 12vh;
+   
+   
+}
+.tab a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: unset;
+}
+.tab a:hover{
+    text-decoration: underline;
+}
+
+.eng
+{
+    padding-left: 7%;
+}
+.eng button
+{
+    width: 10%;
+    height: 7vh;
+    color: gray;
+    background-color: white;
+    font-size: medium;
+    border: 1px solid grey;
+
+}
+.eng img
+{
+    width: 10px;
+    color:black;
+    padding-right: 7px;
+}
+
+
+
+
+

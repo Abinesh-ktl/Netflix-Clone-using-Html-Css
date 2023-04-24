@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+   background-position: center; /* Center the image */
+   /* Do not repeat the image */
+   background-size: auto;
+   position: relative;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo
+{
+    width: 150px;
+    margin-top: 18px;
+    margin-left: 130px;
+
+}
+nav button{
+    margin-right: 120px;
+    width: 100px;
+    border-radius: 5px;
+    height: 4vh;
+    font-size: 13px;
+    background-color: #db0001;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.lang{
+    font-size: 13px;
+    margin-right: 40px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding-bottom: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 100px;
+    font-weight: bold;
+    height: 4vh;
+}
+.lang img{
+    width: 10px;
+    margin-left: 10px;
+  
+
+}
+.headcontent
+{
+    color: #fff;
+    text-align: center;
+    
+   
+    margin-top: 200px;
+}
+.headcontent h1{
+    font-size: 60px;
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.headcontent h3{
+   font-weight:500;
+   margin-top: 18px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.headcontent p{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    color: #fff;
+}
+form{
+    margin-top: 20px;
+
+
+}
+.email{
+    width: 400px;
+    height: 7vh;
+    background-color: rgb(24 23 23);
+    border: 1px solid #fff;
+    padding-left: 10px;
+    color: #fff;
+    
+
+}
+input::placeholder
+{
+    color: #fff;
+}
+.start
+{
+    width: 200px;
+    height: 7vh;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    font-weight: 700;
+    margin-left: 10px;
+    border-color: #fff;
+}
+.feature
+{
+    color: #fff;
+    padding: 55px 12%;
+    font-size: 22px;
+}
+.row
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.textcol
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.imgcol
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+}
+.imgcol img{
+    display: block;
+    width: 90%;
+}
+.feature h1{
+    font-size: 50px;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+.act{
+    padding-left: 3%;
+
+}
+
+
+

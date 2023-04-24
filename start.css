@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo2{
+    display: flex;
+    margin-bottom: 1.5%;
+}
+
+
+.logo2 img{
+    
+    width: 150px;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.img-div{
+    flex-basis: 90%;
+}
+.text-div #href{
+    flex-basis: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(79 77 77);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10%;
+}
+.text-div #href:hover{
+    text-decoration: underline;
+}
+
+.text-div{
+    display: grid;
+    align-items: center;
+}
+.line
+{
+    color: black;
+}
+.box3
+{
+    width: 100%;
+    height: 90vh;
+}
+.inside3 img{
+    width: 50%;
+}
+
+
+.inside3
+{
+   display: grid;
+   
+   justify-content: center;
+   padding-top: 9%;
+   padding-left: 15%;
+}
+.inside3 h5{
+    padding-left: 21%;
+    padding-top: 10%;
+    padding-top: 5%;
+    color: rgb(99, 95, 95);
+}
+.inside3 h1{
+    font-size: 200%;
+    font-family: system-ui;
+
+    color: #4e4949;
+}
+.text2
+{
+    padding-left: 18%;
+}
+.text3
+{
+    font-size: 18px;
+    padding-top: 5%;
+    padding-left: 6%;
+    font-family: system-ui;
+    font-weight: 600;
+    color: #524747;
+}
+.text4
+{
+    font-size: 18px;
+   
+    font-family: system-ui;
+    font-weight: 600;
+    color: #524747;
+}
+.text5
+{
+    font-size: 18px;
+ 
+    padding-left: 15%;
+    font-family: system-ui;
+    font-weight: 600;
+    color: #524747;
+}
+.inside3 button
+{
+    color: white;
+    margin-top: 6%;
+    width: 60%;
+    height: 8vh;
+    background-color: red;
+    font-size: xx-large;
+    font-family: system-ui;
+
+    border-radius: 6px;
+    border: none;
+}
+.box4
+{
+    width: 100%;
+    height: 35vh;
+    color: gray;
+    
+  
+    background-color: #f6f4f4;
+    font-family: system-ui;
+}
+.inbox4 p{
+    padding-left: 7%;
+    padding-top: 3.5%;
+}
+.tab
+{
+    padding-left: 7%;
+   
+    margin-top: 2%;
+    height: 12vh;
+   
+   
+}
+.tab a
+{
+    color: gray;
+    text-decoration: none;
+    font-size: unset;
+}
+.tab a:hover{
+    text-decoration: underline;
+}
+
+.eng
+{
+    padding-left: 7%;
+}
+.eng button
+{
+    width: 10%;
+    height: 7vh;
+    color: gray;
+    background-color: white;
+    font-size: medium;
+    border: 1px solid grey;
+
+}
+.eng img
+{
+    width: 10px;
+    color:black;
+    padding-right: 7px;
+}
